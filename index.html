@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Rendu Tailwind CSS</title>
+    <style>
+    * {
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+    }
+
+
+    </style>
+</head>
+<body>
+   
+    <div class="bg-[url('/images/desktop/image-header.jpg')] bg-center bg-cover bg-no-repeat lg:w-full lg:h-screen">
+        <div class="flex flex-row justify-between"> 
+            <img src="./images/logo.svg" class="p-12 ">
+            <img src="./images/icon-hamburger.svg" class="p-12">
+        </div> 
+        <div class="flex flex-col items-center text-white gap-24 pt-5 pb-40 ">
+            <h1 class="font-fraunces font-black text-4xl tracking-widest text-center">WE ARE CREATIVES</h1>
+            <img src="./images/icon-arrow-down.svg" class="">
+        </div>
+    </div>
+    <div class="lg:flex lg:flex-row-reverse ">
+        <img src="./images/desktop/image-transform.jpg" class="w-full">
+        <div class="p-12 text-center gap-11 flex flex-col lg:text-left lg:p-40">
+            <h1 class="font-black text-Very_dark_desaturated_blue font-fraunces text-3xl ">Transform your brand</h1>
+            <p class="text-lg text-Very_dark_grayish_blue">We are a full-service creative agency specializing in helping brands grow fast. 
+            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+            <p class="text-Very_dark_desaturated_blue font-fraunces text-1xl font-black">LEARN MORE</p>
+        </div>
+    </div>
+</body>
+</html>
