@@ -5,3 +5,6 @@
 .DS_Store
 .prettierignore
 .vscode
+/node_modules/
+.package-lock.json/
+.package.json/
