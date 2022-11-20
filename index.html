@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800;900&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800;9..144,900&display=swap" rel="stylesheet">
@@ -24,8 +25,16 @@
    
     <div class="bg-[url('/images/desktop/image-header.jpg')] bg-center bg-cover bg-no-repeat lg:w-full lg:h-screen">
         <div class="flex flex-row justify-between"> 
-            <img src="./images/logo.svg" class="p-12 ">
-            <img src="./images/icon-hamburger.svg" class="p-12">
+            <img src="./images/logo.svg" class="p-12">
+        <div class=" invisible lg:visible lg:flex lg:flex-row lg:items-center lg:justify-between lg:gap-11 lg:ml-[1200px]">
+            <p class="font-['Barlow'] text-white font-normal text-xl">About</p>
+            <p class="font-['Barlow'] text-white font-normal text-xl">Services</p>
+            <p class="font-['Barlow'] text-white font-normal text-xl">Projects</p>
+            <div>
+                <button class="font-['Fraunces'] bg-white p-4 pl-6 pr-6 font-normal rounded-3xl">CONTACT</button>
+            </div>
+        </div>       
+            <img src="./images/icon-hamburger.svg" class="p-12 lg:invisible"> 
         </div> 
         <div class="flex flex-col items-center text-white gap-24 pt-5 pb-40 ">
             <h1 class="font-['Fraunces'] font-black text-5xl text-center tracking-widest">WE ARE CREATIVES</h1>
@@ -33,38 +42,95 @@
         </div>
     </div>
     <div class="lg:flex lg:flex-row-reverse">
-        <img src="./images/desktop/image-transform.jpg" class=" lg:w-[120%]">
+        <img src="./images/desktop/image-transform.jpg" class=" lg:w-[103%]">
         <div class="p-12 text-center gap-11 font-['Fraunces'] flex flex-col lg:text-left lg:flex lg:align-middle lg:p-40">
-            <h1 class="font-black text-Very_dark_desaturated_blue text-3xl ">Transform your brand</h1>
+            <h1 class="font-black text-Very_dark_desaturated_blue text-3xl lg:text-5xl lg:pt-24">Transform your brand</h1>
             <p class="text-lg font-['Barlow'] font-medium text-Dark_grayish_blue">We are a full-service creative agency specializing in helping brands grow fast. 
             Engage your clients through compelling visuals that do most of the marketing for you.</p>
-            <p class="text-Very_dark_desaturated_blue text-1xl font-black">LEARN MORE</p>
+            <p class="text-Very_dark_desaturated_blue text-1xl font-black lg:text-2xl">LEARN MORE</p>
         </div>
     </div>
     <div class="lg:flex lg:flex-row">
-        <img src="./images/desktop/image-stand-out.jpg" class="lg:w-[113%]">
+        <img src="./images/desktop/image-stand-out.jpg" class="lg:w-[100%]">
         <div class="p-12 text-center gap-11 font-['Fraunces'] flex flex-col lg:text-left lg:p-40">
-            <h1 class="font-black text-Very_dark_desaturated_blue text-3xl">  Stand out to the right audience</h1>
+            <h1 class="font-black text-Very_dark_desaturated_blue text-3xl lg:text-5xl lg:pt-24">  Stand out to the right audience</h1>
             <p class="text-lg font-['Barlow'] font-medium text-Dark_grayish_blue">  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-            <p class="text-Very_dark_desaturated_blue text-1xl font-black">LEARN MORE</p>
+            <p class="text-Very_dark_desaturated_blue text-1xl font-black lg:text-2xl">LEARN MORE</p>
         </div>
     </div>
 
     <div class="lg:flex lg:flex-row">
         <div class="bg-[url('/images/desktop/image-graphic-design.jpg')] text-center bg-center bg-cover  bg-no-repeat lg:w-full lg:h-screen">
             <div>
-            <h1 class="pt-96 font-['Fraunces'] font-black text-Dark_desaturated_cyan text-3xl lg:mt-56">Graphic design</h1>
+            <h1 class="pt-96 font-['Fraunces'] font-black text-Dark_desaturated_cyan text-3xl lg:mt-64">Graphic design</h1>
             <p class="font-['Barlow'] font-medium text-2xl text-Dark_desaturated_cyan p-12 lg:pl-40 lg:pr-40">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
             </div>
         </div>
         <div class="bg-[url('/images/desktop/image-photography.jpg')] text-center bg-center bg-cover bg-no-repeat lg:w-full lg:h-screen">
             <div>
-            <h1 class="pt-96 font-['Fraunces'] font-black text-Dark_blue text-3xl lg:mt-56">Photography</h1>
+            <h1 class="pt-96 font-['Fraunces'] font-black text-Dark_blue text-3xl lg:mt-64">Photography</h1>
             <p class="font-['Barlow'] font-medium text-2xl text-Dark_blue p-12 lg:pl-40 lg:pr-40">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
             </div>
         </div>
-
+    </div>
+    <div>
+        <h2 class="font-['Fraunces'] text-Grayish_blue font-black text-xl text-center tracking-widest pt-16 pb-20 lg:pt-40">CLIENT TESTIMONIALS</h2>
+    </div>
+    <div class="lg:flex lg:flex-row lg:pl-40 lg:pr-40">
+        <div class="flex flex-col items-center">
+            <img src="./images/image-emily.jpg" class="rounded-full w-24 ">
+            <p class="font-['Barlow'] font-bold text-2xl text-Dark_grayish_blue pt-10 text-center pl-10 pr-10 lg:pt-20">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+            <p class="font-['Fraunces'] text-2xl pt-10 lg:pt-40">Emily R.</p>
+            <p class="font-['Barlow'] text-xl font-light text-Grayish_blue pb-24 ">Marketing Director</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img src="./images/image-thomas.jpg" class="rounded-full w-24 ">
+            <p class="font-['Barlow'] font-bold text-2xl text-Dark_grayish_blue pt-10 text-center pl-10 pr-10 lg:pt-20">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+            <p class="font-['Fraunces'] text-2xl pt-10 lg:pt-40">Thomas S.</p>
+            <p class="font-['Barlow'] text-xl font-light text-Grayish_blue pb-24 ">Chief Operating Officer</p>
+        </div>
+        <div class="flex flex-col items-center ">
+            <img src="./images/image-jennie.jpg" class="rounded-full w-24 ">
+            <p class="font-['Barlow'] font-bold text-2xl text-Dark_grayish_blue pt-10 text-center pl-10 pr-10 lg:pt-20">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+            <p class="font-['Fraunces'] text-2xl pt-10 lg:pt-40">  Jennie F.</p>
+            <p class="font-['Barlow'] text-xl font-light text-Grayish_blue pb-24 ">Business Owner</p>
+        </div>
     </div>
 
+    <div class="lg:flex lg:flex-row">
+    <div class="flex flex-row">
+        <div>
+            <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="">
+        </div>
+        <div>
+            <img src="./images/desktop/image-gallery-orange.jpg" alt="">
+        </div>
+    </div>
+    <div class="flex flex-row">
+        <div>
+            <img src="./images/desktop/image-gallery-cone.jpg" alt="">
+        </div>
+        <div>
+            <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="">
+        </div>
+    </div>
+    </div>
+
+    <div class="bg-Grayish_cyan">
+        <div>
+            <h2 class="font-['Barlow'] text-Dark_desaturated_cyan font-black text-5xl text-center pt-20">sunnyside</h2>
+        </div>
+        <div class="flex flex-row justify-between p-20 lg:ml-[700px] lg:mr-[700px]">
+            <p class="text-Dark_moderate_cyan font-medium text-2xl">About</p>
+            <p class="text-Dark_moderate_cyan font-medium text-2xl">Services</p>
+            <p class="text-Dark_moderate_cyan font-medium text-2xl">Projects</p>
+        </div>
+        <div class="flex flex-row justify-between pl-40 pr-40 pb-32 lg:ml-[700px] lg:mr-[700px]">
+            <img src="./images/icon-facebook.svg" alt="">
+            <img src="./images/icon-instagram.svg" alt="">
+            <img src="./images/icon-twitter.svg" alt="">
+            <img src="./images/icon-pinterest.svg" alt="">
+        </div>
+    </div>
 </body>
 </html>
