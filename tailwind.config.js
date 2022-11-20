@@ -7,15 +7,10 @@ module.exports = {
         'headerImg': "url('/images/image-header.jpg')",
       },
       fontFamily: { 
-        "barlow": 'Barlow sans-serif',
-        "fraunces": 'Fraunces serif',
+        "Barlow": ['Barlow, sans-serif'],
+        "Fraunces": 'Fraunces serif',
       },
-      fontWeight: {
-        'bold': 700,
-        'extra-bold': 800,
-        'black': 900,
-
-      },
+   
       colors: {
         'Soft_red': '#FE7866',
         'Yellow' : '#F9D400',

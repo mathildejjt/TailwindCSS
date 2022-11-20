@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800;900&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800;9..144,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Rendu Tailwind CSS</title>
     <style>
@@ -14,6 +14,7 @@
     margin : 0;
     padding: 0;
     box-sizing : border-box;
+    font-weight: bolder;
     }
 
 
@@ -27,18 +28,43 @@
             <img src="./images/icon-hamburger.svg" class="p-12">
         </div> 
         <div class="flex flex-col items-center text-white gap-24 pt-5 pb-40 ">
-            <h1 class="font-fraunces font-black text-4xl tracking-widest text-center">WE ARE CREATIVES</h1>
+            <h1 class="font-['Fraunces'] font-black text-5xl text-center tracking-widest">WE ARE CREATIVES</h1>
             <img src="./images/icon-arrow-down.svg" class="">
         </div>
     </div>
-    <div class="lg:flex lg:flex-row-reverse ">
-        <img src="./images/desktop/image-transform.jpg" class="w-full">
-        <div class="p-12 text-center gap-11 flex flex-col lg:text-left lg:p-40">
-            <h1 class="font-black text-Very_dark_desaturated_blue font-fraunces text-3xl ">Transform your brand</h1>
-            <p class="text-lg text-Very_dark_grayish_blue">We are a full-service creative agency specializing in helping brands grow fast. 
+    <div class="lg:flex lg:flex-row-reverse">
+        <img src="./images/desktop/image-transform.jpg" class=" lg:w-[120%]">
+        <div class="p-12 text-center gap-11 font-['Fraunces'] flex flex-col lg:text-left lg:flex lg:align-middle lg:p-40">
+            <h1 class="font-black text-Very_dark_desaturated_blue text-3xl ">Transform your brand</h1>
+            <p class="text-lg font-['Barlow'] font-medium text-Dark_grayish_blue">We are a full-service creative agency specializing in helping brands grow fast. 
             Engage your clients through compelling visuals that do most of the marketing for you.</p>
-            <p class="text-Very_dark_desaturated_blue font-fraunces text-1xl font-black">LEARN MORE</p>
+            <p class="text-Very_dark_desaturated_blue text-1xl font-black">LEARN MORE</p>
         </div>
     </div>
+    <div class="lg:flex lg:flex-row">
+        <img src="./images/desktop/image-stand-out.jpg" class="lg:w-[113%]">
+        <div class="p-12 text-center gap-11 font-['Fraunces'] flex flex-col lg:text-left lg:p-40">
+            <h1 class="font-black text-Very_dark_desaturated_blue text-3xl">  Stand out to the right audience</h1>
+            <p class="text-lg font-['Barlow'] font-medium text-Dark_grayish_blue">  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+            <p class="text-Very_dark_desaturated_blue text-1xl font-black">LEARN MORE</p>
+        </div>
+    </div>
+
+    <div class="lg:flex lg:flex-row">
+        <div class="bg-[url('/images/desktop/image-graphic-design.jpg')] text-center bg-center bg-cover  bg-no-repeat lg:w-full lg:h-screen">
+            <div>
+            <h1 class="pt-96 font-['Fraunces'] font-black text-Dark_desaturated_cyan text-3xl lg:mt-56">Graphic design</h1>
+            <p class="font-['Barlow'] font-medium text-2xl text-Dark_desaturated_cyan p-12 lg:pl-40 lg:pr-40">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+            </div>
+        </div>
+        <div class="bg-[url('/images/desktop/image-photography.jpg')] text-center bg-center bg-cover bg-no-repeat lg:w-full lg:h-screen">
+            <div>
+            <h1 class="pt-96 font-['Fraunces'] font-black text-Dark_blue text-3xl lg:mt-56">Photography</h1>
+            <p class="font-['Barlow'] font-medium text-2xl text-Dark_blue p-12 lg:pl-40 lg:pr-40">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </div>
+        </div>
+
+    </div>
+
 </body>
 </html>
